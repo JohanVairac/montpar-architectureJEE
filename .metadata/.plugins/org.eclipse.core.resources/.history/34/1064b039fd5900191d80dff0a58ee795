@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaire d'inscription</title>
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<section class="container">
+                <h1>Page Contact</h1>
+                <div>
+                        <form action="/contact" method="POST" id="form-contact">
+
+                            <div>
+                                <label for= "prenom">Prenom</label>
+                                <input id= "prenom" placeholder="Mon Prénom" type="text" name="prenom"/>
+                            </div> 
+
+                            <div>
+                                <label for= "nom">Nom</label>
+                                <input id= "nom" placeholder="Mon Nom" type= "text" name="nom"/>
+                            </div>
+                            <div>
+                                <label for= "password">Password</label>
+                                <input id= "password" type= "password" name="password"/>
+                            </div>
+
+                            <div>
+                                <label for="dept">Departement</label>
+                                <select id="dept" name= "departement">
+                                    <option>Support Tech</option>
+                                    <option>Marketing</option>
+                                    <option>Finance</option>
+                                </select>
+                            </div>
+</body>
+</html>

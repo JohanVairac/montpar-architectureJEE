@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@ taglib prefix= "c" uri= "http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Récupération des inoformations</h2>
+Nom : <c:out value="${lenom}" /> 
+Nom : <c:out value="${leprenom}" /> 
+Nom : <c:out value="${lage}" /> 
+Nom : <c:out value="${leniveau}" /> 
+Nom : <c:out value="${legenre}" /> 
+</body>
+</html>

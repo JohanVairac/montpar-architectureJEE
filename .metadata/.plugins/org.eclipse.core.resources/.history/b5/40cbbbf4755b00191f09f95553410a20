@@ -1,0 +1,60 @@
+package com.infotel.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class MaServletjsp
+ */
+@WebServlet("/MaServletjsp")
+public class MaServletjsp extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public MaServletjsp() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// 1 - Récupération des données
+		String nom = request.getParameter("nom");
+		String prenom= request.getParameter("prenom");
+		int age= Integer.parseInt(request.getParameter("age"));
+		String niveau= request.getParameter("niveau");
+		String genre= request.getParameter("gridRadios");
+		String[] hobbies= request.getParameterValues("checkbox");
+		
+		
+		// 2 - Préparation à l'envoi 
+		
+		request.setAttribute("lenom, nom");
+		request.setAttribute("leprenom, prenom");
+		request.setAttribute("lage, age");
+		request.setAttribute("leniveau, niveau");
+		request.setAttribute("legenre, gridradios");
+		request.setAttribute("leshobbies, checkbox");
+		
+				
+		// 3 - Envoi à la JSP
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

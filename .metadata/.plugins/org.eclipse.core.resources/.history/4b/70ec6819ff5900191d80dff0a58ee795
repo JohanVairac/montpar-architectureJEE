@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaire d'inscription</title>
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+</head>
+<body>
+	<section class="container">
+		<h1>Formulaire</h1>
+		<div>
+			<form action="/contact" method="POST" id="form-contact">
+
+				<div class= "form-group row">
+				
+					<label for="prenom">Prenom</label> 
+					<input id="prenom" placeholder="Mon Prénom" readonly class="form-control" type= "text" name="prenom" />
+				</div>
+
+				<div>
+					<label for="nom">Nom</label> 
+					<input id="nom" placeholder="Mon Nom"
+						readonly class="form-control" type="text" name="nom" />
+				</div>
+				<div>
+					<label for="age">Age</label> <input id="age" readonly class="form-control" type="int" name="age" />
+				</div>
+
+				<div>
+					<label for="niveau">Niveau</label> <select id="niveau"
+						name="niveau">
+						<option>Débutant</option>
+						<option>Intermédiaire</option>
+						<option>Expert</option>
+					</select>
+				</div>
+				<fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Sexe</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Homme
+                                    </label>
+                                    </div>
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Femme
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>  
+                        <div class="form-group row">
+                                <div class="col-sm-2">Hobbies :</div>
+                                <div class="col-sm-10">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                      Voyage
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                    <label class="form-check-label" for="gridCheck1">
+                                      Cinéma
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                    <label class="form-check-label" for="gridCheck1">
+                                      Foot
+                                    </label>
+                                  </div>
+                                </div>
+                           </div>
+                           <div>
+                                <button type= "submit">Envoyer</button>
+                                <button type= "reset">Annuler</button>
+                            </div>
+</body>
+</html>

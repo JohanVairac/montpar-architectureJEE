@@ -1,0 +1,38 @@
+package com.infotel.dao;
+
+import java.util.List;
+
+import com.infotel.metier.Personne;
+
+public class DaoImpl implements Idao {
+
+	@Override
+	public void creerPersonne(Personne p) {
+		// TODO Auto-generated method stub
+		System.out.println("Je crée la personne");
+
+	}
+
+	@Override
+	public Personne modifier(Personne p) {
+		// TODO Auto-generated method stub
+		System.out.println("Je modifie la personne");
+		return null;
+	}
+
+	@Override
+	public void supprimer(Personne p) {
+		// TODO Auto-generated method stub
+		System.out.println("I shot the sheriff");
+
+	}
+
+	@Override
+	public List<Personne> lister() {
+		// TODO Auto-generated method stub
+		System.out.println("Je liste personnes");
+		return null;
+		
+	}
+
+}

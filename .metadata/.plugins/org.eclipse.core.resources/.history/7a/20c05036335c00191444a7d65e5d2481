@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+	<section class="container">
+		<h1>Formulaire Test</h1>
+		<div>
+			<form action="ServletPersonne">
+
+				<div>
+					<div class="form-group row">
+						<label for="prenom">Prenom</label> <input id="prenom"
+							placeholder="Entrer mon prénom" class="form-control" type="text"
+							name="prenom" required />
+					</div>
+
+					<div class="form-group row">
+						<label for="nom">Nom</label> <input id="nom"
+							placeholder="Entrer mon nom" class="form-control" type="text"
+							name="nom" required />
+					</div>
+
+					<div class="form-group row">
+						<label for="age">Age</label> <input id="age"
+							placeholder="Entrer mon âge" class="form-control" type="number"
+							name="age" required />
+					</div>
+
+					<div class="form-group row">
+						<label for="id">Age</label> <input id="id"
+							placeholder="Entrer mon identifiant" class="form-control"
+							type="number" name="id" required />
+					</div>
+				</div>
+				<div>
+					<button type="submit">Ajouter</button>
+				</div>
+
+			</form>
+		</div>
+	</section>
+</body>
+</html>
+
+
+

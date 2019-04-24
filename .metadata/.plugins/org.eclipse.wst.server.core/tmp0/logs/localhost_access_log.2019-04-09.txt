@@ -1,0 +1,16 @@
+127.0.0.1 - - [09/Apr/2019:16:40:26 +0200] "GET / HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:16:40:26 +0200] "GET /exempleJEE/Inscription.html HTTP/1.1" 200 4176
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:16:40:26 +0200] "GET /exempleJEE/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:16:40:26 +0200] "GET /exempleJEE/css/bootstrap.css HTTP/1.1" 200 202385
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:16:40:38 +0200] "GET /exempleJEE/MaServlet?prenom=f&nom=e&age=15&niveau=D%E9butant&gridRadios=Homme&checkbox=voyage HTTP/1.1" 200 211
+127.0.0.1 - - [09/Apr/2019:17:04:01 +0200] "GET / HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:04:02 +0200] "GET /exempleJEE/resultat.jsp HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:11:19 +0200] "GET /exempleJEE/resultat.jsp HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:11:19 +0200] "GET /exempleJEE/css/bootstrap.css HTTP/1.1" 200 202385
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:11:19 +0200] "GET /exempleJEE/css/main.css HTTP/1.1" 200 2012
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:12:15 +0200] "GET /exempleJEE/resultat.jsp HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:12:15 +0200] "GET /exempleJEE/css/main.css HTTP/1.1" 200 2030
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:12:15 +0200] "GET /exempleJEE/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:13:24 +0200] "GET /exempleJEE/resultat.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:13:24 +0200] "GET /exempleJEE/css/main.css HTTP/1.1" 200 2040
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:13:24 +0200] "GET /exempleJEE/css/bootstrap.css HTTP/1.1" 304 -

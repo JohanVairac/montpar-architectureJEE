@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.infotel.dao.Idao"/>
+    <fullyQualifiedTypeName name="com.infotel.dao.DaoImpl"/>
+    <fullyQualifiedTypeName name="com.infotel.service.Iservices"/>
+    <fullyQualifiedTypeName name="com.infotel.metier.Personne"/>
+    <fullyQualifiedTypeName name="com.infotel.service.ServiceImpl"/>
+</qualifiedTypeNameHistroy>

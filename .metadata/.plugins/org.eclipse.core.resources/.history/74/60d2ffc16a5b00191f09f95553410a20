@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<%! private int compteur = 0; %>
+<meta charset="UTF-8">
+<title>Test des balises dynamiques</title>
+</head>
+<body>
+<h1> le nombre d'abonnements est évalué à <%=++compteur %> </h1>
+</body>
+</html>
